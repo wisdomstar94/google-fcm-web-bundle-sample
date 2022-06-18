@@ -31,8 +31,9 @@ npm i
 copy .env.sample .env
 ```
 5. .env 파일 안에 있는 값들을 적절히 수정해줍니다.<br />
+
 | 변수명 | 의미 |
-|---|---|
+| --- | --- |
 | FIREBASE_apiKey | firebase sdk 설정값중 apiKey 에 해당하는 값을 넣어주세요. |
 | FIREBASE_authDomain | firebase sdk 설정값중 authDomain 에 해당하는 값을 넣어주세요. |
 | FIREBASE_projectId | firebase sdk 설정값중 projectId 에 해당하는 값을 넣어주세요. |
@@ -40,6 +41,7 @@ copy .env.sample .env
 | FIREBASE_messagingSenderId | firebase sdk 설정값중 messagingSenderId 에 해당하는 값을 넣어주세요. |
 | FIREBASE_appId | firebase sdk 설정값중 appId 에 해당하는 값을 넣어주세요. |
 | FIREBASE_MESSAGING_SW_JS_FILE_PATH | firebase-messaging-sw.js 파일이 루트 경로에 있지 않은 경우에만 이 값을 수정하시면 됩니다. |
+
 
 6. 다음 명령어들을 입력해 ts 파일을 js 파일로 번들링 합니다.
 ```
