@@ -2,13 +2,13 @@
 1. https://console.firebase.google.com/?hl=ko 에 접속합니다.
 2. "프로젝트 추가"를 클릭하여 프로젝트를 생성합니다.
 3. 프로젝트 overview 페이지에서 프로젝트 설정을 클릭합니다.<br />
-<img src="./readme_images/firebase-project-overview-setting.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/firebase-project-overview-setting.png" alt="설명이미지" title="설명이미지" />
 
 4. 맨 아래로 스크롤 하여 웹앱 추가 버튼을 클릭합니다. <br />
-<img src="./readme_images/firebase-project-new-web-app-button.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/firebase-project-new-web-app-button.png" alt="설명이미지" title="설명이미지" />
 
 5. 웹앱 등록 후 다시 프로젝트 설정 페이지로 돌아가 맨 아래로 스크롤하면 다음과 같이 firebase 초기화에 필요한 정보를 확인 할 수 있습니다.<br />
-<img src="./readme_images/firebase-project-setting-init-info.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/firebase-project-setting-init-info.png" alt="설명이미지" title="설명이미지" />
 
 <br />
 <br />
@@ -50,20 +50,20 @@ npm run build:fcm
 ```
 
 7. 다음과 같이 fcm.js 파일과 firebase-messaging-sw.js 파일이 생성된 것을 확인 할 수 있습니다. <br />
-<img src="./readme_images/dist-check.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/dist-check.png" alt="설명이미지" title="설명이미지" />
 
 8. 프로젝트를 구동합니다.
 ```
 node app.js
 ```
 9. http://localhost:8990 에 접속하면 다음과 같이 알림에 대한 요청이 표시됩니다.<br />
-<img src="./readme_images/browser-permission-confirm.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/browser-permission-confirm.png" alt="설명이미지" title="설명이미지" />
 
 10. 허용을 클릭 한 후 [개발자도구] 의 console 탭을 보면 token 이 표시된 것을 확인 할 수 있습니다.<br />
-<img src="./readme_images/firebase-messaging-token-check.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/firebase-messaging-token-check.png" alt="설명이미지" title="설명이미지" />
 
 11. POSTMAN 을 실행합니다.<br />
-<img src="./readme_images/postman-icon.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/postman-icon.png" alt="설명이미지" title="설명이미지" />
 
 12. request 아이템을 하나 생성하고 REST API 정보를 다음과 같이 입력합니다.<br />
 - url
@@ -93,14 +93,14 @@ access token 은 "https://github.com/wisdomstar94/google-web-login-sample" 대�
 }
 ```
 13. 위와 같이 REST API를 설정 후 SEND 버튼을 눌러 API 를 호출합니다. <br />
-<img src="./readme_images/postman-fcm-web-push-rest-api.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/postman-fcm-web-push-rest-api.png" alt="설명이미지" title="설명이미지" />
 
 14. 그럼 다음과 같이 브라우저의 콘솔탭에서 foreground 상태일 때의 메시지를 수신 받는 것을 확인 할 수 있습니다. <br />
-<img src="./readme_images/firebae-fcm-foreground-receive-check.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/firebae-fcm-foreground-receive-check.png" alt="설명이미지" title="설명이미지" />
 
 15. 그럼 이번엔 브라우저를 최소화 하고 동일하게 API 를 호출합니다.
 16. 그럼 다음과 같이 브라우저 자체에서 알림이 오며, 브라우저를 다시 활성화하고 콘솔 탭을 보면 background 상태일 때의 메시지를 수신 받는 것을 확인 할 수 있습니다. <br />
-<img src="./readme_images/browser-notification.png" alt="설명이미지" title="설명이미지" /> <br />
-<img src="./readme_images/firebae-fcm-background-receive-check.png" alt="설명이미지" title="설명이미지" />
+&nbsp;&nbsp;<img src="./readme_images/browser-notification.png" alt="설명이미지" title="설명이미지" /> <br />
+&nbsp;&nbsp;<img src="./readme_images/firebae-fcm-background-receive-check.png" alt="설명이미지" title="설명이미지" />
 
 17. 이제 여러분들의 서비스에 맞게 커스텀하시려면 .env 파일, src/fcm.ts 파일 src/firebase-messaging-sw.ts 파일을 적절히 수정하신 후 마찬가지로 js 파일로 번들링 하신 뒤 번들링 된 js 파일을 여러분들의 프로젝트에서 사용하시면 됩니다. :)
