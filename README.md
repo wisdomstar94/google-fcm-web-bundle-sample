@@ -14,7 +14,7 @@
 <br />
 
 # 이 프로젝트 사용 방법
-1. 본 프로젝트를 git pull 받습니다.
+1. 본 프로젝트를 git clone 받습니다.
 ```
 git clone https://github.com/wisdomstar94/google-fcm-web-bundle-sample.git
 ```
