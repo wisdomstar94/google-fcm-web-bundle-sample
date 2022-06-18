@@ -1,0 +1,42 @@
+{
+  "name": "google-fcm-web-bundle-sample",
+  "version": "1.0.0",
+  "description": "firebase web sdk 설정을 위한 번들러 샘플 프로젝트 입니다.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:firebase-messaging-sw": "node ./esbuild-firebase-messaging-sw.config.js",
+    "build:fcm": "node ./esbuild-fcm.config.js"
+  },
+  "keywords": [
+    "google",
+    "구글",
+    "google firebase",
+    "firebase",
+    "구글 firebase",
+    "firebase 구글",
+    "google firebase web",
+    "google firebase web sdk",
+    "google firebase sdk",
+    "firebase sdk",
+    "sdk",
+    "파이어베이스",
+    "구글 파이어베이스",
+    "fcm sdk",
+    "fcm",
+    "firebase web sdk"
+  ],
+  "author": "wisdomstar94@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.45"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "errors": "^0.3.0",
+    "express": "^4.18.1",
+    "firebase": "^9.8.3",
+    "path": "^0.12.7",
+    "typescript": "^4.7.4"
+  }
+}

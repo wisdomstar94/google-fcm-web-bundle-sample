@@ -1,0 +1,4 @@
+node_modules
+dist/fcm.js
+dist/firebase-messaging-sw.js
+.env
