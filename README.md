@@ -16,11 +16,11 @@
 # 이 프로젝트 사용 방법
 1. 본 프로젝트를 git clone 받습니다.
 ```
-git clone https://github.com/wisdomstar94/google-fcm-web-bundle-sample.git
+git clone https://github.com/wisdomstar94/google-fcm-web-sdk-bundle-sample.git
 ```
 2. 클론 받은 프로젝트 경로로 이동합니다.
 ```
-cd google-fcm-web-bundle-sample
+cd google-fcm-web-sdk-bundle-sample
 ```
 3. node package 를 설치합니다.
 ```

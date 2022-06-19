@@ -1,5 +1,5 @@
 {
-  "name": "google-fcm-web-bundle-sample",
+  "name": "google-fcm-web-sdk-bundle-sample",
   "version": "1.0.0",
   "description": "firebase web sdk 설정을 위한 번들러 샘플 프로젝트 입니다.",
   "main": "app.js",
